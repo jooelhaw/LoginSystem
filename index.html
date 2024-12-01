@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+		integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="imgs/login.png" type="image/x-icon">
+	<title>Login System</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="screen">
+			<div class="screen__content">
+				<form id="loginForm" class="login">
+					<div class="login__field">
+						<i class="login__icon fas fa-at"></i>
+						<input id="email" type="text" class="login__input" placeholder="User Email">
+						<label id="emailLabel" for="email">#Email is Required</label>
+					</div>
+					<div class="login__field">
+						<i class="login__icon fas fa-lock"></i>
+						<input id="password" type="password" class="login__input" placeholder="Password">
+						<label id="passLabel" for="password">#Password is Required</label>
+					</div>
+					<button id="loginBtn" class="button login__submit" type="submit">
+						<span class="button__text">Log In Now</span>
+						<i class="button__icon fas fa-chevron-right"></i>
+					</button>
+				</form>
+				<div class="signup">
+					<p>Don’t have an account? <a href="/signup.html">Sign Up</a></p>
+				</div>
+			</div>
+			<div class="screen__background">
+				<span class="screen__background__shape screen__background__shape4"></span>
+				<span class="screen__background__shape screen__background__shape3"></span>
+				<span class="screen__background__shape screen__background__shape2"></span>
+				<span class="screen__background__shape screen__background__shape1"></span>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/login.js"></script>
+</body>
+
+</html>
