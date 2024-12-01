@@ -77,7 +77,7 @@ logInForm.addEventListener('submit', function (e) {
     {
       localStorage.setItem('activeUser', JSON.stringify(activeUser));
       clearFields();
-      document.location.href = '/html/home.html';
+      document.location.href = '/home.html';
     }
   }
 })
