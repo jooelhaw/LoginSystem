@@ -90,7 +90,7 @@ signUpForm.addEventListener('submit', function (e) {
     if (checkNotExist(emailInput.value)) {
       addUser(nameInput.value, emailInput.value, passInput.value);
       clearFields();
-      window.location.href = '/index.html';
+      window.location.href = 'index.html';
     }
   }
 

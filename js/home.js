@@ -20,5 +20,5 @@ signOutBtn.addEventListener('click', function (e) {
 
 function logOut() {
   localStorage.removeItem('activeUser');
-  document.location.href = '/index.html';
+  document.location.href = 'index.html';
 }
